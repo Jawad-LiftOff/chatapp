@@ -74,6 +74,7 @@ function addMessage(msg, pseudo, date, self) {
 	else var classDiv = "row message";
 	$("#chatEntries").append('<div class="'+classDiv+'"><p class="infos"><span class="pseudo">'+pseudo+'</span>, <time class="date" title="'+date+'">'+date+'</time></p><p>' + msg + '</p></div>');
 	time();
+  $("#chatEntries").animate({ scrollTop: $('#chatEntries')[0].scrollHeight}, 1000);
 }
 
 function bindButton() {
