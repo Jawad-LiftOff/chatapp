@@ -1,7 +1,7 @@
 {
   "name":"chat",
   "node":"0.6.12",
-  "author":"geekuillaume",
+  "author":"jawad",
   "dependencies": {
   	"socket.io": "*",
   	"express": "*",
